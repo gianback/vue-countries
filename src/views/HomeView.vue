@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import FormRegion from '@/components/FormRegion.vue'
+import FormSearch from '@/components/FormSearch.vue'
 </script>
 
 <template>
   <main>
-    <h1>hello world</h1>
-    <!-- <TheWelcome /> -->
+    <FormSearch />
+    <FormRegion />
   </main>
 </template>
